@@ -5,6 +5,9 @@ module.exports = (sequelize, DataTypes) => { // menampilkan model Komik dengan m
       autoIncrement: true,
       primaryKey: true
     },
+    title: { // mendefinisikan atribut title dengan tipe data STRING.
+      type: DataTypes.STRING,
+    },
 
   });
   return Komik;
