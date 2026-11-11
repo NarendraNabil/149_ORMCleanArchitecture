@@ -11,7 +11,9 @@ module.exports = (sequelize, DataTypes) => { // menampilkan model Komik dengan m
     description: { // mendefinisikan atribut description dengan tipe data STRING.
       type: DataTypes.STRING,
     },
-
+    author: { // mendefinisikan atribut author dengan tipe data STRING.
+      type: DataTypes.STRING,
+    }
   });
   return Komik;
 };
